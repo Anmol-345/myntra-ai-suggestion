@@ -1,15 +1,16 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { Suspense, useState, useEffect } from "react";
 import { getProducts, Product } from "@/lib/products";
 import ProductCard from "@/components/ui/ProductCard";
 import FilterPanel from "@/components/shop/FilterPanel";
-import { Filter, Search } from "lucide-react";
+import { Filter } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ProductSkeleton } from "@/components/ui/Skeleton";
 import { useSearchParams } from "next/navigation";
 
-export default function Shop() {
+// Inner component — uses useSearchParams, must be inside <Suspense>
+function ShopContent() {
   const searchParams = useSearchParams();
   const [allProducts, setAllProducts] = useState<Product[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
@@ -153,5 +154,25 @@ export default function Shop() {
         )}
       </AnimatePresence>
     </div>
+  );
+}
+
+// Skeleton shown while ShopContent suspends during SSR
+function ShopSkeleton() {
+  return (
+    <div className="max-w-[1400px] mx-auto px-4 md:px-10 py-10">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
+        {[1, 2, 3, 4, 5, 6, 7, 8].map((i) => <ProductSkeleton key={i} />)}
+      </div>
+    </div>
+  );
+}
+
+// Default export wraps in Suspense — required by Next.js App Router
+export default function Shop() {
+  return (
+    <Suspense fallback={<ShopSkeleton />}>
+      <ShopContent />
+    </Suspense>
   );
 }
