@@ -1,0 +1,1996 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Blue Jacket - 1",
+    "category": "Jackets",
+    "price": 1278,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue jackets perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/101/600/800"
+  },
+  {
+    "id": "prod-2",
+    "name": "Green Skirt - 2",
+    "category": "Skirts",
+    "price": 1891,
+    "gender": "Unisex",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Green",
+    "description": "A premium quality green skirts perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/102/600/800"
+  },
+  {
+    "id": "prod-3",
+    "name": "Yellow Suit - 3",
+    "category": "Suits",
+    "price": 624,
+    "gender": "Unisex",
+    "occasions": [
+      "office"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow suits perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/103/600/800"
+  },
+  {
+    "id": "prod-4",
+    "name": "Beige Suit - 4",
+    "category": "Suits",
+    "price": 2315,
+    "gender": "Unisex",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige suits perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/104/600/800"
+  },
+  {
+    "id": "prod-5",
+    "name": "Yellow Jacket - 5",
+    "category": "Jackets",
+    "price": 3577,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow jackets perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/105/600/800"
+  },
+  {
+    "id": "prod-6",
+    "name": "Yellow Shirt - 6",
+    "category": "Shirts",
+    "price": 4398,
+    "gender": "Unisex",
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow shirts perfect for travel and formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/106/600/800"
+  },
+  {
+    "id": "prod-7",
+    "name": "Navy Hoodie - 7",
+    "category": "Hoodies",
+    "price": 3743,
+    "gender": "Men",
+    "occasions": [
+      "party",
+      "formal"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy hoodies perfect for party and formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/107/600/800"
+  },
+  {
+    "id": "prod-8",
+    "name": "Black Skirt - 8",
+    "category": "Skirts",
+    "price": 3541,
+    "gender": "Women",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Black",
+    "description": "A premium quality black skirts perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/108/600/800"
+  },
+  {
+    "id": "prod-9",
+    "name": "Yellow Skirt - 9",
+    "category": "Skirts",
+    "price": 2143,
+    "gender": "Women",
+    "occasions": [
+      "party"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow skirts perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/109/600/800"
+  },
+  {
+    "id": "prod-10",
+    "name": "Red Jean - 10",
+    "category": "Jeans",
+    "price": 4694,
+    "gender": "Women",
+    "occasions": [
+      "party"
+    ],
+    "color": "Red",
+    "description": "A premium quality red jeans perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/110/600/800"
+  },
+  {
+    "id": "prod-11",
+    "name": "Green Jacket - 11",
+    "category": "Jackets",
+    "price": 4132,
+    "gender": "Women",
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "color": "Green",
+    "description": "A premium quality green jackets perfect for formal and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/111/600/800"
+  },
+  {
+    "id": "prod-12",
+    "name": "Beige Jean - 12",
+    "category": "Jeans",
+    "price": 3662,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige jeans perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/112/600/800"
+  },
+  {
+    "id": "prod-13",
+    "name": "Grey Shirt - 13",
+    "category": "Shirts",
+    "price": 4413,
+    "gender": "Men",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey shirts perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/113/600/800"
+  },
+  {
+    "id": "prod-14",
+    "name": "Yellow Shirt - 14",
+    "category": "Shirts",
+    "price": 644,
+    "gender": "Men",
+    "occasions": [
+      "office",
+      "casual"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow shirts perfect for office and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/114/600/800"
+  },
+  {
+    "id": "prod-15",
+    "name": "Pink T-Shirt - 15",
+    "category": "T-Shirts",
+    "price": 4112,
+    "gender": "Women",
+    "occasions": [
+      "gym",
+      "casual"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink t-shirts perfect for gym and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/115/600/800"
+  },
+  {
+    "id": "prod-16",
+    "name": "Green Suit - 16",
+    "category": "Suits",
+    "price": 3421,
+    "gender": "Women",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Green",
+    "description": "A premium quality green suits perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/116/600/800"
+  },
+  {
+    "id": "prod-17",
+    "name": "Red Jacket - 17",
+    "category": "Jackets",
+    "price": 621,
+    "gender": "Women",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Red",
+    "description": "A premium quality red jackets perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/117/600/800"
+  },
+  {
+    "id": "prod-18",
+    "name": "Yellow Short - 18",
+    "category": "Shorts",
+    "price": 4545,
+    "gender": "Unisex",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow shorts perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/118/600/800"
+  },
+  {
+    "id": "prod-19",
+    "name": "Navy Ethnic Wea - 19",
+    "category": "Ethnic Wear",
+    "price": 4122,
+    "gender": "Unisex",
+    "occasions": [
+      "office"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy ethnic wear perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/119/600/800"
+  },
+  {
+    "id": "prod-20",
+    "name": "Blue Shirt - 20",
+    "category": "Shirts",
+    "price": 4170,
+    "gender": "Unisex",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue shirts perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/120/600/800"
+  },
+  {
+    "id": "prod-21",
+    "name": "Green Suit - 21",
+    "category": "Suits",
+    "price": 3934,
+    "gender": "Unisex",
+    "occasions": [
+      "formal",
+      "office"
+    ],
+    "color": "Green",
+    "description": "A premium quality green suits perfect for formal and office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/121/600/800"
+  },
+  {
+    "id": "prod-22",
+    "name": "Beige Dresse - 22",
+    "category": "Dresses",
+    "price": 3103,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige dresses perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/122/600/800"
+  },
+  {
+    "id": "prod-23",
+    "name": "Beige T-Shirt - 23",
+    "category": "T-Shirts",
+    "price": 3871,
+    "gender": "Women",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige t-shirts perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/123/600/800"
+  },
+  {
+    "id": "prod-24",
+    "name": "Pink Dresse - 24",
+    "category": "Dresses",
+    "price": 4418,
+    "gender": "Unisex",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink dresses perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/124/600/800"
+  },
+  {
+    "id": "prod-25",
+    "name": "Black T-Shirt - 25",
+    "category": "T-Shirts",
+    "price": 2477,
+    "gender": "Women",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Black",
+    "description": "A premium quality black t-shirts perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/125/600/800"
+  },
+  {
+    "id": "prod-26",
+    "name": "Green Dresse - 26",
+    "category": "Dresses",
+    "price": 1792,
+    "gender": "Unisex",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Green",
+    "description": "A premium quality green dresses perfect for travel and travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/126/600/800"
+  },
+  {
+    "id": "prod-27",
+    "name": "Black Short - 27",
+    "category": "Shorts",
+    "price": 3375,
+    "gender": "Unisex",
+    "occasions": [
+      "office"
+    ],
+    "color": "Black",
+    "description": "A premium quality black shorts perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/127/600/800"
+  },
+  {
+    "id": "prod-28",
+    "name": "Navy Shirt - 28",
+    "category": "Shirts",
+    "price": 1546,
+    "gender": "Women",
+    "occasions": [
+      "office"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy shirts perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/128/600/800"
+  },
+  {
+    "id": "prod-29",
+    "name": "Beige Jacket - 29",
+    "category": "Jackets",
+    "price": 3036,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige jackets perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/129/600/800"
+  },
+  {
+    "id": "prod-30",
+    "name": "Beige Skirt - 30",
+    "category": "Skirts",
+    "price": 2655,
+    "gender": "Women",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige skirts perfect for casual and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/130/600/800"
+  },
+  {
+    "id": "prod-31",
+    "name": "Yellow Hoodie - 31",
+    "category": "Hoodies",
+    "price": 1006,
+    "gender": "Unisex",
+    "occasions": [
+      "party",
+      "casual"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow hoodies perfect for party and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/131/600/800"
+  },
+  {
+    "id": "prod-32",
+    "name": "Navy Short - 32",
+    "category": "Shorts",
+    "price": 2927,
+    "gender": "Women",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy shorts perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/132/600/800"
+  },
+  {
+    "id": "prod-33",
+    "name": "Navy T-Shirt - 33",
+    "category": "T-Shirts",
+    "price": 2969,
+    "gender": "Women",
+    "occasions": [
+      "office",
+      "casual"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy t-shirts perfect for office and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/133/600/800"
+  },
+  {
+    "id": "prod-34",
+    "name": "Black Jacket - 34",
+    "category": "Jackets",
+    "price": 1554,
+    "gender": "Unisex",
+    "occasions": [
+      "formal",
+      "party"
+    ],
+    "color": "Black",
+    "description": "A premium quality black jackets perfect for formal and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/134/600/800"
+  },
+  {
+    "id": "prod-35",
+    "name": "Yellow Jacket - 35",
+    "category": "Jackets",
+    "price": 3356,
+    "gender": "Women",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow jackets perfect for travel and travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/135/600/800"
+  },
+  {
+    "id": "prod-36",
+    "name": "Navy Shirt - 36",
+    "category": "Shirts",
+    "price": 2990,
+    "gender": "Men",
+    "occasions": [
+      "formal",
+      "casual"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy shirts perfect for formal and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/136/600/800"
+  },
+  {
+    "id": "prod-37",
+    "name": "Green Ethnic Wea - 37",
+    "category": "Ethnic Wear",
+    "price": 4266,
+    "gender": "Men",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Green",
+    "description": "A premium quality green ethnic wear perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/137/600/800"
+  },
+  {
+    "id": "prod-38",
+    "name": "Blue Shirt - 38",
+    "category": "Shirts",
+    "price": 1603,
+    "gender": "Women",
+    "occasions": [
+      "travel",
+      "office"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue shirts perfect for travel and office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/138/600/800"
+  },
+  {
+    "id": "prod-39",
+    "name": "Green Jacket - 39",
+    "category": "Jackets",
+    "price": 4251,
+    "gender": "Women",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Green",
+    "description": "A premium quality green jackets perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/139/600/800"
+  },
+  {
+    "id": "prod-40",
+    "name": "Red Short - 40",
+    "category": "Shorts",
+    "price": 1936,
+    "gender": "Unisex",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "color": "Red",
+    "description": "A premium quality red shorts perfect for casual and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/140/600/800"
+  },
+  {
+    "id": "prod-41",
+    "name": "Pink Jean - 41",
+    "category": "Jeans",
+    "price": 1739,
+    "gender": "Unisex",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink jeans perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/141/600/800"
+  },
+  {
+    "id": "prod-42",
+    "name": "Green Suit - 42",
+    "category": "Suits",
+    "price": 1500,
+    "gender": "Women",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Green",
+    "description": "A premium quality green suits perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/142/600/800"
+  },
+  {
+    "id": "prod-43",
+    "name": "Blue Hoodie - 43",
+    "category": "Hoodies",
+    "price": 4281,
+    "gender": "Women",
+    "occasions": [
+      "office"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue hoodies perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/143/600/800"
+  },
+  {
+    "id": "prod-44",
+    "name": "Yellow Short - 44",
+    "category": "Shorts",
+    "price": 2481,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow shorts perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/144/600/800"
+  },
+  {
+    "id": "prod-45",
+    "name": "Beige Shirt - 45",
+    "category": "Shirts",
+    "price": 4744,
+    "gender": "Women",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige shirts perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/145/600/800"
+  },
+  {
+    "id": "prod-46",
+    "name": "Green Jean - 46",
+    "category": "Jeans",
+    "price": 4524,
+    "gender": "Men",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Green",
+    "description": "A premium quality green jeans perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/146/600/800"
+  },
+  {
+    "id": "prod-47",
+    "name": "Black T-Shirt - 47",
+    "category": "T-Shirts",
+    "price": 4508,
+    "gender": "Women",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Black",
+    "description": "A premium quality black t-shirts perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/147/600/800"
+  },
+  {
+    "id": "prod-48",
+    "name": "Navy Hoodie - 48",
+    "category": "Hoodies",
+    "price": 4394,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy hoodies perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/148/600/800"
+  },
+  {
+    "id": "prod-49",
+    "name": "White Skirt - 49",
+    "category": "Skirts",
+    "price": 3154,
+    "gender": "Women",
+    "occasions": [
+      "travel"
+    ],
+    "color": "White",
+    "description": "A premium quality white skirts perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/149/600/800"
+  },
+  {
+    "id": "prod-50",
+    "name": "Beige Hoodie - 50",
+    "category": "Hoodies",
+    "price": 3987,
+    "gender": "Unisex",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige hoodies perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/150/600/800"
+  },
+  {
+    "id": "prod-51",
+    "name": "Red Jean - 51",
+    "category": "Jeans",
+    "price": 1815,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Red",
+    "description": "A premium quality red jeans perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/151/600/800"
+  },
+  {
+    "id": "prod-52",
+    "name": "Yellow Suit - 52",
+    "category": "Suits",
+    "price": 622,
+    "gender": "Men",
+    "occasions": [
+      "travel",
+      "gym"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow suits perfect for travel and gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/152/600/800"
+  },
+  {
+    "id": "prod-53",
+    "name": "White Jacket - 53",
+    "category": "Jackets",
+    "price": 1511,
+    "gender": "Women",
+    "occasions": [
+      "party"
+    ],
+    "color": "White",
+    "description": "A premium quality white jackets perfect for party and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/153/600/800"
+  },
+  {
+    "id": "prod-54",
+    "name": "Yellow Ethnic Wea - 54",
+    "category": "Ethnic Wear",
+    "price": 3989,
+    "gender": "Unisex",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow ethnic wear perfect for casual and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/154/600/800"
+  },
+  {
+    "id": "prod-55",
+    "name": "Green Suit - 55",
+    "category": "Suits",
+    "price": 1076,
+    "gender": "Women",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Green",
+    "description": "A premium quality green suits perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/155/600/800"
+  },
+  {
+    "id": "prod-56",
+    "name": "Green Dresse - 56",
+    "category": "Dresses",
+    "price": 4947,
+    "gender": "Men",
+    "occasions": [
+      "formal",
+      "office"
+    ],
+    "color": "Green",
+    "description": "A premium quality green dresses perfect for formal and office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/156/600/800"
+  },
+  {
+    "id": "prod-57",
+    "name": "Pink Jean - 57",
+    "category": "Jeans",
+    "price": 1977,
+    "gender": "Men",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink jeans perfect for gym and gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/157/600/800"
+  },
+  {
+    "id": "prod-58",
+    "name": "Navy Skirt - 58",
+    "category": "Skirts",
+    "price": 3835,
+    "gender": "Unisex",
+    "occasions": [
+      "office"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy skirts perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/158/600/800"
+  },
+  {
+    "id": "prod-59",
+    "name": "Navy Jean - 59",
+    "category": "Jeans",
+    "price": 771,
+    "gender": "Men",
+    "occasions": [
+      "office"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy jeans perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/159/600/800"
+  },
+  {
+    "id": "prod-60",
+    "name": "Green T-Shirt - 60",
+    "category": "T-Shirts",
+    "price": 4630,
+    "gender": "Unisex",
+    "occasions": [
+      "wedding",
+      "travel"
+    ],
+    "color": "Green",
+    "description": "A premium quality green t-shirts perfect for wedding and travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/160/600/800"
+  },
+  {
+    "id": "prod-61",
+    "name": "Navy Short - 61",
+    "category": "Shorts",
+    "price": 3644,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy shorts perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/161/600/800"
+  },
+  {
+    "id": "prod-62",
+    "name": "Grey Jacket - 62",
+    "category": "Jackets",
+    "price": 4671,
+    "gender": "Unisex",
+    "occasions": [
+      "formal",
+      "office"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey jackets perfect for formal and office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/162/600/800"
+  },
+  {
+    "id": "prod-63",
+    "name": "Red Shirt - 63",
+    "category": "Shirts",
+    "price": 4569,
+    "gender": "Women",
+    "occasions": [
+      "office"
+    ],
+    "color": "Red",
+    "description": "A premium quality red shirts perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/163/600/800"
+  },
+  {
+    "id": "prod-64",
+    "name": "Blue Jacket - 64",
+    "category": "Jackets",
+    "price": 1516,
+    "gender": "Unisex",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue jackets perfect for casual and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/164/600/800"
+  },
+  {
+    "id": "prod-65",
+    "name": "Grey Short - 65",
+    "category": "Shorts",
+    "price": 2426,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey shorts perfect for gym and gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/165/600/800"
+  },
+  {
+    "id": "prod-66",
+    "name": "White Skirt - 66",
+    "category": "Skirts",
+    "price": 2295,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "White",
+    "description": "A premium quality white skirts perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/166/600/800"
+  },
+  {
+    "id": "prod-67",
+    "name": "Grey Suit - 67",
+    "category": "Suits",
+    "price": 3725,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey suits perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/167/600/800"
+  },
+  {
+    "id": "prod-68",
+    "name": "Black Jean - 68",
+    "category": "Jeans",
+    "price": 4173,
+    "gender": "Women",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Black",
+    "description": "A premium quality black jeans perfect for wedding and wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/168/600/800"
+  },
+  {
+    "id": "prod-69",
+    "name": "Blue Ethnic Wea - 69",
+    "category": "Ethnic Wear",
+    "price": 980,
+    "gender": "Unisex",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue ethnic wear perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/169/600/800"
+  },
+  {
+    "id": "prod-70",
+    "name": "Yellow Skirt - 70",
+    "category": "Skirts",
+    "price": 1901,
+    "gender": "Unisex",
+    "occasions": [
+      "gym",
+      "formal"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow skirts perfect for gym and formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/170/600/800"
+  },
+  {
+    "id": "prod-71",
+    "name": "Yellow Shirt - 71",
+    "category": "Shirts",
+    "price": 1890,
+    "gender": "Men",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow shirts perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/171/600/800"
+  },
+  {
+    "id": "prod-72",
+    "name": "Red Shirt - 72",
+    "category": "Shirts",
+    "price": 3369,
+    "gender": "Unisex",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Red",
+    "description": "A premium quality red shirts perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/172/600/800"
+  },
+  {
+    "id": "prod-73",
+    "name": "Red Jacket - 73",
+    "category": "Jackets",
+    "price": 1199,
+    "gender": "Unisex",
+    "occasions": [
+      "wedding",
+      "casual"
+    ],
+    "color": "Red",
+    "description": "A premium quality red jackets perfect for wedding and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/173/600/800"
+  },
+  {
+    "id": "prod-74",
+    "name": "Beige Hoodie - 74",
+    "category": "Hoodies",
+    "price": 2844,
+    "gender": "Unisex",
+    "occasions": [
+      "travel",
+      "party"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige hoodies perfect for travel and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/174/600/800"
+  },
+  {
+    "id": "prod-75",
+    "name": "White Hoodie - 75",
+    "category": "Hoodies",
+    "price": 3742,
+    "gender": "Women",
+    "occasions": [
+      "travel"
+    ],
+    "color": "White",
+    "description": "A premium quality white hoodies perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/175/600/800"
+  },
+  {
+    "id": "prod-76",
+    "name": "Blue Jean - 76",
+    "category": "Jeans",
+    "price": 1245,
+    "gender": "Unisex",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue jeans perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/176/600/800"
+  },
+  {
+    "id": "prod-77",
+    "name": "Black Suit - 77",
+    "category": "Suits",
+    "price": 3098,
+    "gender": "Men",
+    "occasions": [
+      "office"
+    ],
+    "color": "Black",
+    "description": "A premium quality black suits perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/177/600/800"
+  },
+  {
+    "id": "prod-78",
+    "name": "Pink Dresse - 78",
+    "category": "Dresses",
+    "price": 2341,
+    "gender": "Women",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink dresses perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/178/600/800"
+  },
+  {
+    "id": "prod-79",
+    "name": "Navy Hoodie - 79",
+    "category": "Hoodies",
+    "price": 2017,
+    "gender": "Unisex",
+    "occasions": [
+      "office",
+      "casual"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy hoodies perfect for office and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/179/600/800"
+  },
+  {
+    "id": "prod-80",
+    "name": "Black Jean - 80",
+    "category": "Jeans",
+    "price": 1743,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Black",
+    "description": "A premium quality black jeans perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/180/600/800"
+  },
+  {
+    "id": "prod-81",
+    "name": "Green Jacket - 81",
+    "category": "Jackets",
+    "price": 3688,
+    "gender": "Men",
+    "occasions": [
+      "office",
+      "formal"
+    ],
+    "color": "Green",
+    "description": "A premium quality green jackets perfect for office and formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/181/600/800"
+  },
+  {
+    "id": "prod-82",
+    "name": "Red Short - 82",
+    "category": "Shorts",
+    "price": 1772,
+    "gender": "Unisex",
+    "occasions": [
+      "gym",
+      "travel"
+    ],
+    "color": "Red",
+    "description": "A premium quality red shorts perfect for gym and travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/182/600/800"
+  },
+  {
+    "id": "prod-83",
+    "name": "White Skirt - 83",
+    "category": "Skirts",
+    "price": 1151,
+    "gender": "Women",
+    "occasions": [
+      "office"
+    ],
+    "color": "White",
+    "description": "A premium quality white skirts perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/183/600/800"
+  },
+  {
+    "id": "prod-84",
+    "name": "Navy Jacket - 84",
+    "category": "Jackets",
+    "price": 683,
+    "gender": "Women",
+    "occasions": [
+      "wedding",
+      "party"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy jackets perfect for wedding and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/184/600/800"
+  },
+  {
+    "id": "prod-85",
+    "name": "Navy Skirt - 85",
+    "category": "Skirts",
+    "price": 4050,
+    "gender": "Men",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy skirts perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/185/600/800"
+  },
+  {
+    "id": "prod-86",
+    "name": "Grey Suit - 86",
+    "category": "Suits",
+    "price": 4061,
+    "gender": "Men",
+    "occasions": [
+      "office",
+      "party"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey suits perfect for office and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/186/600/800"
+  },
+  {
+    "id": "prod-87",
+    "name": "Blue Jean - 87",
+    "category": "Jeans",
+    "price": 1977,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue jeans perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/187/600/800"
+  },
+  {
+    "id": "prod-88",
+    "name": "Beige Suit - 88",
+    "category": "Suits",
+    "price": 1598,
+    "gender": "Unisex",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige suits perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/188/600/800"
+  },
+  {
+    "id": "prod-89",
+    "name": "Black Jacket - 89",
+    "category": "Jackets",
+    "price": 2636,
+    "gender": "Unisex",
+    "occasions": [
+      "wedding",
+      "travel"
+    ],
+    "color": "Black",
+    "description": "A premium quality black jackets perfect for wedding and travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/189/600/800"
+  },
+  {
+    "id": "prod-90",
+    "name": "Black Skirt - 90",
+    "category": "Skirts",
+    "price": 4690,
+    "gender": "Unisex",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "color": "Black",
+    "description": "A premium quality black skirts perfect for casual and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/190/600/800"
+  },
+  {
+    "id": "prod-91",
+    "name": "Beige Suit - 91",
+    "category": "Suits",
+    "price": 4539,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige suits perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/191/600/800"
+  },
+  {
+    "id": "prod-92",
+    "name": "Yellow Suit - 92",
+    "category": "Suits",
+    "price": 1925,
+    "gender": "Women",
+    "occasions": [
+      "travel",
+      "wedding"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow suits perfect for travel and wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/192/600/800"
+  },
+  {
+    "id": "prod-93",
+    "name": "Green T-Shirt - 93",
+    "category": "T-Shirts",
+    "price": 3210,
+    "gender": "Women",
+    "occasions": [
+      "wedding",
+      "gym"
+    ],
+    "color": "Green",
+    "description": "A premium quality green t-shirts perfect for wedding and gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/193/600/800"
+  },
+  {
+    "id": "prod-94",
+    "name": "Blue T-Shirt - 94",
+    "category": "T-Shirts",
+    "price": 3935,
+    "gender": "Women",
+    "occasions": [
+      "party",
+      "wedding"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue t-shirts perfect for party and wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/194/600/800"
+  },
+  {
+    "id": "prod-95",
+    "name": "Pink Jean - 95",
+    "category": "Jeans",
+    "price": 827,
+    "gender": "Unisex",
+    "occasions": [
+      "office",
+      "formal"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink jeans perfect for office and formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/195/600/800"
+  },
+  {
+    "id": "prod-96",
+    "name": "Pink Short - 96",
+    "category": "Shorts",
+    "price": 1996,
+    "gender": "Women",
+    "occasions": [
+      "formal",
+      "travel"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink shorts perfect for formal and travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/196/600/800"
+  },
+  {
+    "id": "prod-97",
+    "name": "Green Suit - 97",
+    "category": "Suits",
+    "price": 3102,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Green",
+    "description": "A premium quality green suits perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/197/600/800"
+  },
+  {
+    "id": "prod-98",
+    "name": "Pink Dresse - 98",
+    "category": "Dresses",
+    "price": 1159,
+    "gender": "Women",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink dresses perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/198/600/800"
+  },
+  {
+    "id": "prod-99",
+    "name": "White Jacket - 99",
+    "category": "Jackets",
+    "price": 4260,
+    "gender": "Women",
+    "occasions": [
+      "party",
+      "gym"
+    ],
+    "color": "White",
+    "description": "A premium quality white jackets perfect for party and gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/199/600/800"
+  },
+  {
+    "id": "prod-100",
+    "name": "Pink Hoodie - 100",
+    "category": "Hoodies",
+    "price": 1227,
+    "gender": "Men",
+    "occasions": [
+      "travel",
+      "formal"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink hoodies perfect for travel and formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/200/600/800"
+  },
+  {
+    "id": "prod-101",
+    "name": "Yellow Suit - 101",
+    "category": "Suits",
+    "price": 4090,
+    "gender": "Women",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow suits perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/201/600/800"
+  },
+  {
+    "id": "prod-102",
+    "name": "Red Dresse - 102",
+    "category": "Dresses",
+    "price": 585,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "Red",
+    "description": "A premium quality red dresses perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/202/600/800"
+  },
+  {
+    "id": "prod-103",
+    "name": "Black Short - 103",
+    "category": "Shorts",
+    "price": 2599,
+    "gender": "Unisex",
+    "occasions": [
+      "casual",
+      "office"
+    ],
+    "color": "Black",
+    "description": "A premium quality black shorts perfect for casual and office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/203/600/800"
+  },
+  {
+    "id": "prod-104",
+    "name": "Pink Hoodie - 104",
+    "category": "Hoodies",
+    "price": 4744,
+    "gender": "Women",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink hoodies perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/204/600/800"
+  },
+  {
+    "id": "prod-105",
+    "name": "Black Ethnic Wea - 105",
+    "category": "Ethnic Wear",
+    "price": 1966,
+    "gender": "Unisex",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Black",
+    "description": "A premium quality black ethnic wear perfect for casual and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/205/600/800"
+  },
+  {
+    "id": "prod-106",
+    "name": "Navy Suit - 106",
+    "category": "Suits",
+    "price": 769,
+    "gender": "Men",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy suits perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/206/600/800"
+  },
+  {
+    "id": "prod-107",
+    "name": "Yellow Short - 107",
+    "category": "Shorts",
+    "price": 3565,
+    "gender": "Unisex",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow shorts perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/207/600/800"
+  },
+  {
+    "id": "prod-108",
+    "name": "Grey Skirt - 108",
+    "category": "Skirts",
+    "price": 637,
+    "gender": "Men",
+    "occasions": [
+      "casual",
+      "party"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey skirts perfect for casual and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/208/600/800"
+  },
+  {
+    "id": "prod-109",
+    "name": "Black Skirt - 109",
+    "category": "Skirts",
+    "price": 2407,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "Black",
+    "description": "A premium quality black skirts perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/209/600/800"
+  },
+  {
+    "id": "prod-110",
+    "name": "Black Shirt - 110",
+    "category": "Shirts",
+    "price": 4158,
+    "gender": "Women",
+    "occasions": [
+      "gym",
+      "casual"
+    ],
+    "color": "Black",
+    "description": "A premium quality black shirts perfect for gym and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/210/600/800"
+  },
+  {
+    "id": "prod-111",
+    "name": "Navy Jean - 111",
+    "category": "Jeans",
+    "price": 1330,
+    "gender": "Women",
+    "occasions": [
+      "office"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy jeans perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/211/600/800"
+  },
+  {
+    "id": "prod-112",
+    "name": "Grey Dresse - 112",
+    "category": "Dresses",
+    "price": 1987,
+    "gender": "Unisex",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey dresses perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/212/600/800"
+  },
+  {
+    "id": "prod-113",
+    "name": "Blue Short - 113",
+    "category": "Shorts",
+    "price": 2180,
+    "gender": "Women",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue shorts perfect for wedding and wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/213/600/800"
+  },
+  {
+    "id": "prod-114",
+    "name": "Black Suit - 114",
+    "category": "Suits",
+    "price": 1468,
+    "gender": "Women",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Black",
+    "description": "A premium quality black suits perfect for gym and gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/214/600/800"
+  },
+  {
+    "id": "prod-115",
+    "name": "Beige Skirt - 115",
+    "category": "Skirts",
+    "price": 1587,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige skirts perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/215/600/800"
+  },
+  {
+    "id": "prod-116",
+    "name": "Pink T-Shirt - 116",
+    "category": "T-Shirts",
+    "price": 1001,
+    "gender": "Unisex",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink t-shirts perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/216/600/800"
+  },
+  {
+    "id": "prod-117",
+    "name": "Pink Suit - 117",
+    "category": "Suits",
+    "price": 1962,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink suits perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/217/600/800"
+  },
+  {
+    "id": "prod-118",
+    "name": "Pink Suit - 118",
+    "category": "Suits",
+    "price": 3991,
+    "gender": "Unisex",
+    "occasions": [
+      "office",
+      "formal"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink suits perfect for office and formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/218/600/800"
+  },
+  {
+    "id": "prod-119",
+    "name": "Pink Hoodie - 119",
+    "category": "Hoodies",
+    "price": 4664,
+    "gender": "Men",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink hoodies perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/219/600/800"
+  },
+  {
+    "id": "prod-120",
+    "name": "White Ethnic Wea - 120",
+    "category": "Ethnic Wear",
+    "price": 2847,
+    "gender": "Women",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "White",
+    "description": "A premium quality white ethnic wear perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/220/600/800"
+  },
+  {
+    "id": "prod-121",
+    "name": "Blue Jacket - 121",
+    "category": "Jackets",
+    "price": 2149,
+    "gender": "Men",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue jackets perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/221/600/800"
+  },
+  {
+    "id": "prod-122",
+    "name": "Yellow Skirt - 122",
+    "category": "Skirts",
+    "price": 4620,
+    "gender": "Women",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow skirts perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/222/600/800"
+  },
+  {
+    "id": "prod-123",
+    "name": "Black Short - 123",
+    "category": "Shorts",
+    "price": 1821,
+    "gender": "Women",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Black",
+    "description": "A premium quality black shorts perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/223/600/800"
+  },
+  {
+    "id": "prod-124",
+    "name": "Pink Hoodie - 124",
+    "category": "Hoodies",
+    "price": 4091,
+    "gender": "Unisex",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink hoodies perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/224/600/800"
+  },
+  {
+    "id": "prod-125",
+    "name": "Pink Hoodie - 125",
+    "category": "Hoodies",
+    "price": 1937,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink hoodies perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/225/600/800"
+  },
+  {
+    "id": "prod-126",
+    "name": "Navy T-Shirt - 126",
+    "category": "T-Shirts",
+    "price": 1626,
+    "gender": "Women",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy t-shirts perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/226/600/800"
+  },
+  {
+    "id": "prod-127",
+    "name": "Pink Skirt - 127",
+    "category": "Skirts",
+    "price": 3972,
+    "gender": "Men",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink skirts perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/227/600/800"
+  },
+  {
+    "id": "prod-128",
+    "name": "Green Ethnic Wea - 128",
+    "category": "Ethnic Wear",
+    "price": 2582,
+    "gender": "Women",
+    "occasions": [
+      "travel",
+      "party"
+    ],
+    "color": "Green",
+    "description": "A premium quality green ethnic wear perfect for travel and party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/228/600/800"
+  },
+  {
+    "id": "prod-129",
+    "name": "Blue Suit - 129",
+    "category": "Suits",
+    "price": 4804,
+    "gender": "Men",
+    "occasions": [
+      "wedding"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue suits perfect for wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/229/600/800"
+  },
+  {
+    "id": "prod-130",
+    "name": "Red Skirt - 130",
+    "category": "Skirts",
+    "price": 4515,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "Red",
+    "description": "A premium quality red skirts perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/230/600/800"
+  },
+  {
+    "id": "prod-131",
+    "name": "Yellow Jean - 131",
+    "category": "Jeans",
+    "price": 2906,
+    "gender": "Men",
+    "occasions": [
+      "office"
+    ],
+    "color": "Yellow",
+    "description": "A premium quality yellow jeans perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/231/600/800"
+  },
+  {
+    "id": "prod-132",
+    "name": "Navy Shirt - 132",
+    "category": "Shirts",
+    "price": 3622,
+    "gender": "Unisex",
+    "occasions": [
+      "gym",
+      "casual"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy shirts perfect for gym and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/232/600/800"
+  },
+  {
+    "id": "prod-133",
+    "name": "Pink Shirt - 133",
+    "category": "Shirts",
+    "price": 1892,
+    "gender": "Women",
+    "occasions": [
+      "party",
+      "gym"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink shirts perfect for party and gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/233/600/800"
+  },
+  {
+    "id": "prod-134",
+    "name": "White Hoodie - 134",
+    "category": "Hoodies",
+    "price": 2041,
+    "gender": "Women",
+    "occasions": [
+      "casual"
+    ],
+    "color": "White",
+    "description": "A premium quality white hoodies perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/234/600/800"
+  },
+  {
+    "id": "prod-135",
+    "name": "Blue Hoodie - 135",
+    "category": "Hoodies",
+    "price": 4373,
+    "gender": "Men",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Blue",
+    "description": "A premium quality blue hoodies perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/235/600/800"
+  },
+  {
+    "id": "prod-136",
+    "name": "Grey Short - 136",
+    "category": "Shorts",
+    "price": 1469,
+    "gender": "Women",
+    "occasions": [
+      "travel"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey shorts perfect for travel wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/236/600/800"
+  },
+  {
+    "id": "prod-137",
+    "name": "Black Shirt - 137",
+    "category": "Shirts",
+    "price": 2616,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Black",
+    "description": "A premium quality black shirts perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/237/600/800"
+  },
+  {
+    "id": "prod-138",
+    "name": "Grey Suit - 138",
+    "category": "Suits",
+    "price": 3064,
+    "gender": "Unisex",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey suits perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/238/600/800"
+  },
+  {
+    "id": "prod-139",
+    "name": "Beige Jean - 139",
+    "category": "Jeans",
+    "price": 4554,
+    "gender": "Women",
+    "occasions": [
+      "gym",
+      "casual"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige jeans perfect for gym and casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/239/600/800"
+  },
+  {
+    "id": "prod-140",
+    "name": "Navy Shirt - 140",
+    "category": "Shirts",
+    "price": 2853,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy shirts perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/240/600/800"
+  },
+  {
+    "id": "prod-141",
+    "name": "White Dresse - 141",
+    "category": "Dresses",
+    "price": 1549,
+    "gender": "Men",
+    "occasions": [
+      "casual"
+    ],
+    "color": "White",
+    "description": "A premium quality white dresses perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/241/600/800"
+  },
+  {
+    "id": "prod-142",
+    "name": "Grey Short - 142",
+    "category": "Shorts",
+    "price": 3022,
+    "gender": "Unisex",
+    "occasions": [
+      "gym",
+      "office"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey shorts perfect for gym and office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/242/600/800"
+  },
+  {
+    "id": "prod-143",
+    "name": "Black T-Shirt - 143",
+    "category": "T-Shirts",
+    "price": 2082,
+    "gender": "Women",
+    "occasions": [
+      "casual",
+      "wedding"
+    ],
+    "color": "Black",
+    "description": "A premium quality black t-shirts perfect for casual and wedding wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/243/600/800"
+  },
+  {
+    "id": "prod-144",
+    "name": "Beige Jean - 144",
+    "category": "Jeans",
+    "price": 4186,
+    "gender": "Men",
+    "occasions": [
+      "gym"
+    ],
+    "color": "Beige",
+    "description": "A premium quality beige jeans perfect for gym wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/244/600/800"
+  },
+  {
+    "id": "prod-145",
+    "name": "Grey Short - 145",
+    "category": "Shorts",
+    "price": 4205,
+    "gender": "Men",
+    "occasions": [
+      "office"
+    ],
+    "color": "Grey",
+    "description": "A premium quality grey shorts perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/245/600/800"
+  },
+  {
+    "id": "prod-146",
+    "name": "Navy Short - 146",
+    "category": "Shorts",
+    "price": 1111,
+    "gender": "Men",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy shorts perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/246/600/800"
+  },
+  {
+    "id": "prod-147",
+    "name": "Navy Ethnic Wea - 147",
+    "category": "Ethnic Wear",
+    "price": 3846,
+    "gender": "Men",
+    "occasions": [
+      "office"
+    ],
+    "color": "Navy",
+    "description": "A premium quality navy ethnic wear perfect for office wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/247/600/800"
+  },
+  {
+    "id": "prod-148",
+    "name": "Black Dresse - 148",
+    "category": "Dresses",
+    "price": 2410,
+    "gender": "Unisex",
+    "occasions": [
+      "formal"
+    ],
+    "color": "Black",
+    "description": "A premium quality black dresses perfect for formal wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/248/600/800"
+  },
+  {
+    "id": "prod-149",
+    "name": "White Jacket - 149",
+    "category": "Jackets",
+    "price": 3038,
+    "gender": "Men",
+    "occasions": [
+      "party"
+    ],
+    "color": "White",
+    "description": "A premium quality white jackets perfect for party wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/249/600/800"
+  },
+  {
+    "id": "prod-150",
+    "name": "Pink Hoodie - 150",
+    "category": "Hoodies",
+    "price": 2257,
+    "gender": "Women",
+    "occasions": [
+      "casual"
+    ],
+    "color": "Pink",
+    "description": "A premium quality pink hoodies perfect for casual wear. Made from high-quality fabric for maximum comfort.",
+    "imageUrl": "https://picsum.photos/seed/250/600/800"
+  }
+]
