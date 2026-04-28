@@ -28,7 +28,7 @@ export default function Navbar() {
         <div className="flex items-center gap-10">
           <Link href="/" className="shrink-0">
             <span className="text-2xl font-black tracking-tighter text-[#282c3f]">
-              AURA<span className="text-[#ff3f6c]">STYLE</span>
+              <span className="text-[#ff3f6c]">MYNTRA</span>
             </span>
           </Link>
 
