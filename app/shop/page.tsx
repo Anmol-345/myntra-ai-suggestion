@@ -25,6 +25,15 @@ function ShopContent() {
     search: "",
   });
 
+  // Sync filters whenever the URL query params change (e.g. clicking nav links)
+  useEffect(() => {
+    setFilters(prev => ({
+      ...prev,
+      category: searchParams.get("category") || "",
+      gender: searchParams.get("gender") || "",
+    }));
+  }, [searchParams]);
+
   useEffect(() => {
     async function loadData() {
       setIsLoading(true);

@@ -1,9 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { ShoppingBag, User, Heart, Search, Menu, X, Sparkles } from "lucide-react";
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useCart } from "@/hooks/useCart";
@@ -11,14 +11,28 @@ import { useCart } from "@/hooks/useCart";
 const categories = [
   { name: "Men", href: "/shop?gender=Men" },
   { name: "Women", href: "/shop?gender=Women" },
-  { name: "Kids", href: "/shop?category=kids" },
   { name: "Home & Living", href: "/shop" },
 ];
 
-export default function Navbar() {
+function NavbarContent() {
   const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const { totalItems } = useCart();
+
+  // Helper to determine if a category is active
+  const isActive = (href: string) => {
+    if (href === "/shop") {
+      return pathname === "/shop" && !searchParams?.get("gender") && !searchParams?.get("category");
+    }
+    const url = new URL(href, "http://localhost");
+    const hrefGender = url.searchParams.get("gender");
+    const hrefCategory = url.searchParams.get("category");
+    
+    return pathname === "/shop" && 
+      (hrefGender ? searchParams?.get("gender") === hrefGender : true) &&
+      (hrefCategory ? searchParams?.get("category") === hrefCategory : true);
+  };
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 shadow-xs h-20">
@@ -39,7 +53,7 @@ export default function Navbar() {
                 href={cat.href}
                 className={cn(
                   "h-full flex items-center px-2 text-sm font-bold uppercase tracking-wide border-b-4 border-transparent transition-all hover:border-[#ff3f6c]",
-                  pathname === cat.href ? "border-[#ff3f6c]" : ""
+                  isActive(cat.href) ? "border-[#ff3f6c]" : ""
                 )}
               >
                 {cat.name}
@@ -124,7 +138,10 @@ export default function Navbar() {
                 <Link
                   key={cat.name}
                   href={cat.href}
-                  className="text-lg font-bold uppercase tracking-wider border-b border-gray-100 pb-4"
+                  className={cn(
+                    "text-lg font-bold uppercase tracking-wider border-b border-gray-100 pb-4",
+                    isActive(cat.href) ? "text-[#ff3f6c]" : "text-[#282c3f]"
+                  )}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {cat.name}
@@ -142,5 +159,13 @@ export default function Navbar() {
         )}
       </AnimatePresence>
     </nav>
+  );
+}
+
+export default function Navbar() {
+  return (
+    <Suspense fallback={<div className="h-20 bg-white border-b border-gray-100" />}>
+      <NavbarContent />
+    </Suspense>
   );
 }
