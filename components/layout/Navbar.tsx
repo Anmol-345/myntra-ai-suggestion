@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { usePathname, useSearchParams } from "next/navigation";
 import { ShoppingBag, User, Heart, Search, Menu, X, Sparkles } from "lucide-react";
-import { useState, Suspense } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useCart } from "@/hooks/useCart";
+import { useWishlist } from "@/hooks/useWishlist";
 
 const categories = [
   { name: "Men", href: "/shop?gender=Men" },
@@ -18,7 +19,13 @@ function NavbarContent() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const { totalItems } = useCart();
+  const { items: wishlistItems } = useWishlist();
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   // Helper to determine if a category is active
   const isActive = (href: string) => {
@@ -91,20 +98,25 @@ function NavbarContent() {
 
         {/* Right: Actions */}
         <div className="flex items-center gap-6">
-          <div className="hidden sm:flex flex-col items-center gap-0.5 cursor-pointer group">
+          <Link href="/profile" className="hidden sm:flex flex-col items-center gap-0.5 relative group">
             <User size={20} className="text-gray-700 group-hover:text-[#ff3f6c]" />
             <span className="text-[10px] font-bold text-gray-700 uppercase">Profile</span>
-          </div>
+          </Link>
 
-          <div className="hidden sm:flex flex-col items-center gap-0.5 cursor-pointer group">
+          <Link href="/wishlist" className="hidden sm:flex flex-col items-center gap-0.5 relative group">
             <Heart size={20} className="text-gray-700 group-hover:text-[#ff3f6c]" />
             <span className="text-[10px] font-bold text-gray-700 uppercase">Wishlist</span>
-          </div>
+            {isMounted && wishlistItems.length > 0 && (
+              <span className="absolute -top-1 -right-2 w-4 h-4 bg-[#ff3f6c] text-white text-[9px] flex items-center justify-center rounded-full font-bold">
+                {wishlistItems.length}
+              </span>
+            )}
+          </Link>
 
           <Link href="/cart" className="flex flex-col items-center gap-0.5 relative group">
             <ShoppingBag size={20} className="text-gray-700 group-hover:text-[#ff3f6c]" />
             <span className="text-[10px] font-bold text-gray-700 uppercase">Bag</span>
-            {totalItems() > 0 && (
+            {isMounted && totalItems() > 0 && (
               <span className="absolute -top-1 -right-1 w-4 h-4 bg-[#ff3f6c] text-white text-[9px] flex items-center justify-center rounded-full font-bold">
                 {totalItems()}
               </span>

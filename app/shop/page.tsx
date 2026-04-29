@@ -48,7 +48,7 @@ function ShopContent() {
     let filtered = allProducts.filter((p) => {
       if (filters.category && !p.category.toLowerCase().includes(filters.category.toLowerCase())) return false;
       if (filters.gender && p.gender !== filters.gender) return false;
-      if (filters.occasion && !p.occasions.includes(filters.occasion)) return false;
+      if (filters.occasion && !p.occasion?.includes(filters.occasion)) return false;
       if (filters.search && !p.name.toLowerCase().includes(filters.search.toLowerCase())) return false;
       return true;
     });

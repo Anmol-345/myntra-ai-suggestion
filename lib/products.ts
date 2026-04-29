@@ -23,7 +23,7 @@ export async function getCategories() {
 
 export async function getOccasions() {
   const products = await fetchProducts();
-  return Array.from(new Set(products.flatMap((p) => p.occasions)));
+  return Array.from(new Set(products.flatMap((p) => p.occasion || [])));
 }
 
 export async function getGenders() {

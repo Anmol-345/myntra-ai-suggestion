@@ -35,9 +35,24 @@ function wrapText(text: string, maxChars = 18): string[] {
   return lines;
 }
 
+function escapeXml(unsafe: string): string {
+  return unsafe.replace(/[<>&'"]/g, (c) => {
+    switch (c) {
+      case '<': return '&lt;';
+      case '>': return '&gt;';
+      case '&': return '&amp;';
+      case '\'': return '&apos;';
+      case '"': return '&quot;';
+      default: return c;
+    }
+  });
+}
+
 export default function ProductImage({ name, category, id }: ProductImageProps) {
   const { bg, text, accent } = getPalette(category);
-  const lines = wrapText(name);
+  const safeName = escapeXml(name);
+  const safeCategory = escapeXml(category);
+  const lines = wrapText(safeName);
   const totalLines = lines.length;
   const lineHeight = 28;
   const blockHeight = totalLines * lineHeight;
@@ -73,7 +88,7 @@ export default function ProductImage({ name, category, id }: ProductImageProps) 
       <!-- Category badge -->
       <rect x="20" y="20" width="${category.length * 9 + 16}" height="26" rx="13" fill="${accent}33"/>
       <text x="28" y="37" font-family="system-ui,sans-serif" font-size="11" font-weight="700"
-        fill="${accent}" letter-spacing="1">${category.toUpperCase()}</text>
+        fill="${accent}" letter-spacing="1">${safeCategory.toUpperCase()}</text>
 
       <!-- Product name lines -->
       ${lines.map((line, i) => `

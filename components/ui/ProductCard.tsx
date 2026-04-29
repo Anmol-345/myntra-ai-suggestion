@@ -6,6 +6,7 @@ import { ShoppingBag, Heart, Star } from "lucide-react";
 import { Product } from "@/lib/api";
 import { formatPrice } from "@/lib/utils";
 import { useCart } from "@/hooks/useCart";
+import { useWishlist } from "@/hooks/useWishlist";
 import ProductImage from "@/components/ui/ProductImage";
 
 interface ProductCardProps {
@@ -14,6 +15,8 @@ interface ProductCardProps {
 
 export default function ProductCard({ product }: ProductCardProps) {
   const { addItem } = useCart();
+  const { toggleItem, hasItem } = useWishlist();
+  const isWishlisted = hasItem(product.id);
 
   return (
     <motion.div
@@ -22,11 +25,18 @@ export default function ProductCard({ product }: ProductCardProps) {
     >
       {/* Image Container */}
       <div className="relative aspect-[3/4] overflow-hidden transition-transform duration-500 group-hover:scale-105">
-        <ProductImage name={product.name} category={product.category} id={product.id} />
+        <Link href={`/product/${product.id}`} className="block w-full h-full">
+          <ProductImage name={product.name} category={product.category} id={product.id} />
+        </Link>
         
         {/* Wishlist Button */}
-        <button className="absolute top-4 right-4 p-2 bg-white/80 backdrop-blur-sm rounded-full text-gray-400 hover:text-[#ff3f6c] shadow-sm transition-colors opacity-0 group-hover:opacity-100">
-          <Heart size={18} />
+        <button 
+          onClick={(e) => { e.preventDefault(); toggleItem(product.id); }}
+          className={`absolute top-4 right-4 p-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm transition-colors opacity-0 group-hover:opacity-100 ${
+            isWishlisted ? "text-[#ff3f6c] opacity-100" : "text-gray-400 hover:text-[#ff3f6c]"
+          }`}
+        >
+          <Heart size={18} className={isWishlisted ? "fill-[#ff3f6c]" : ""} />
         </button>
 
         {/* Quick View Button */}
@@ -53,18 +63,22 @@ export default function ProductCard({ product }: ProductCardProps) {
           {product.name}
         </h3>
         <p className="text-xs text-[#7e818c] truncate mb-2">
-          {product.description}
+          {product.brand}
         </p>
         <div className="flex items-center gap-2">
           <span className="text-sm font-bold text-[#282c3f]">
             {formatPrice(product.price)}
           </span>
-          <span className="text-[10px] text-gray-400 line-through">
-            {formatPrice(product.price * 1.5)}
-          </span>
-          <span className="text-[10px] font-bold text-[#ff905a]">
-            (50% OFF)
-          </span>
+          {product.discountPrice && product.discountPrice > product.price && (
+            <>
+              <span className="text-[10px] text-gray-400 line-through">
+                {formatPrice(product.discountPrice)}
+              </span>
+              <span className="text-[10px] font-bold text-[#ff905a]">
+                ({Math.round(((product.discountPrice - product.price) / product.discountPrice) * 100)}% OFF)
+              </span>
+            </>
+          )}
         </div>
       </Link>
     </motion.div>

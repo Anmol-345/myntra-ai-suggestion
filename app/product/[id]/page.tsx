@@ -2,6 +2,7 @@
 
 import { useParams } from "next/navigation";
 import { useCart } from "@/hooks/useCart";
+import { useWishlist } from "@/hooks/useWishlist";
 import { getProductById, getProducts, Product } from "@/lib/products";
 import { formatPrice } from "@/lib/utils";
 import { ShoppingBag, Heart, Shield, RefreshCcw, Truck, Star, ArrowLeft } from "lucide-react";
@@ -16,7 +17,17 @@ export default function ProductDetail() {
   const [product, setProduct] = useState<Product | null>(null);
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [selectedSize, setSelectedSize] = useState("");
   const { addItem } = useCart();
+  const { toggleItem, hasItem } = useWishlist();
+
+  const handleAddToCart = () => {
+    if (product?.sizes && product.sizes.length > 0 && !selectedSize) {
+      alert("Please select a size first!");
+      return;
+    }
+    addItem(product as any);
+  };
 
   useEffect(() => {
     async function loadData() {
@@ -48,19 +59,14 @@ export default function ProductDetail() {
     <div className="max-w-[1400px] mx-auto px-4 md:px-10 py-10">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mb-20">
         
-        {/* Left: Image Gallery */}
-        <div className="lg:col-span-7 grid grid-cols-2 gap-4">
-          <div className="aspect-[3/4] overflow-hidden">
-            <ProductImage name={product.name} category={product.category} id={product.id} />
-          </div>
-          <div className="aspect-[3/4] overflow-hidden opacity-80">
-            <ProductImage name={product.name} category={product.category} id={`${product.id}-b`} />
-          </div>
-          <div className="aspect-[3/4] overflow-hidden opacity-60">
-            <ProductImage name={product.name} category={product.category} id={`${product.id}-c`} />
-          </div>
-          <div className="aspect-[3/4] overflow-hidden opacity-40">
-            <ProductImage name={product.name} category={product.category} id={`${product.id}-d`} />
+        {/* Left: Single Image */}
+        <div className="lg:col-span-7 flex justify-center items-start">
+          <div className="w-1/2 aspect-[3/4] overflow-hidden rounded-sm">
+            <ProductImage 
+              name={product.name} 
+              category={product.category} 
+              id={product.id} 
+            />
           </div>
         </div>
 
@@ -68,7 +74,7 @@ export default function ProductDetail() {
         <div className="lg:col-span-5 space-y-6">
           <div>
             <h1 className="text-2xl font-bold text-[#282c3f] mb-1">{product.name}</h1>
-            <p className="text-xl text-gray-400">{product.category}</p>
+            <p className="text-xl text-gray-400">{product.brand} | {product.category}</p>
           </div>
 
           <div className="flex items-center gap-2 border border-gray-100 px-3 py-1.5 w-fit rounded-sm cursor-pointer hover:border-gray-300">
@@ -83,8 +89,12 @@ export default function ProductDetail() {
           <div className="space-y-1">
             <div className="flex items-center gap-3">
               <span className="text-2xl font-bold text-[#282c3f]">{formatPrice(product.price)}</span>
-              <span className="text-xl text-gray-400 line-through">{formatPrice(product.price * 1.5)}</span>
-              <span className="text-xl font-bold text-[#ff905a]">(50% OFF)</span>
+              {product.discountPrice && product.discountPrice > product.price && (
+                <>
+                  <span className="text-xl text-gray-400 line-through">{formatPrice(product.discountPrice)}</span>
+                  <span className="text-xl font-bold text-[#ff905a]">({Math.round(((product.discountPrice - product.price) / product.discountPrice) * 100)}% OFF)</span>
+                </>
+              )}
             </div>
             <p className="text-green-600 text-sm font-bold italic">Inclusive of all taxes</p>
           </div>
@@ -95,25 +105,45 @@ export default function ProductDetail() {
               <h3 className="text-sm font-bold uppercase tracking-wider">Select Size</h3>
               <button className="text-[#ff3f6c] text-xs font-bold uppercase">Size Chart</button>
             </div>
-            <div className="flex gap-4">
-              {['S', 'M', 'L', 'XL', 'XXL'].map((size) => (
-                <button key={size} className="w-12 h-12 rounded-full border border-gray-300 flex items-center justify-center text-sm font-bold hover:border-[#ff3f6c] hover:text-[#ff3f6c] transition-all">
-                  {size}
-                </button>
-              ))}
+            <div className="flex gap-4 flex-wrap">
+              {product.sizes && product.sizes.length > 0 ? (
+                product.sizes.map((size) => (
+                  <button 
+                    key={size} 
+                    onClick={() => setSelectedSize(size)}
+                    className={`min-w-[3rem] px-2 h-12 rounded-full border flex items-center justify-center text-sm font-bold transition-all ${
+                      selectedSize === size 
+                        ? "border-[#ff3f6c] text-[#ff3f6c] bg-[#ff3f6c]/5" 
+                        : "border-gray-300 hover:border-[#ff3f6c] hover:text-[#ff3f6c]"
+                    }`}
+                  >
+                    {size}
+                  </button>
+                ))
+              ) : (
+                <span className="text-gray-500 font-bold border border-gray-200 px-4 py-2 rounded-full">One Size</span>
+              )}
             </div>
           </div>
 
           {/* Actions */}
           <div className="flex gap-4 pt-8">
             <button
-              onClick={() => addItem(product as any)}
+              onClick={handleAddToCart}
               className="flex-1 h-14 bg-[#ff3f6c] text-white font-bold rounded-sm flex items-center justify-center gap-3 hover:bg-[#e63960] transition-all"
             >
               <ShoppingBag size={20} /> ADD TO BAG
             </button>
-            <button className="flex-[0.6] h-14 border border-gray-300 font-bold rounded-sm flex items-center justify-center gap-3 hover:border-gray-800 transition-all">
-              <Heart size={20} /> WISHLIST
+            <button 
+              onClick={() => toggleItem(product!.id)}
+              className={`flex-[0.6] h-14 border font-bold rounded-sm flex items-center justify-center gap-3 transition-all ${
+                hasItem(product!.id) 
+                  ? "border-[#ff3f6c] text-[#ff3f6c] bg-[#ff3f6c]/5" 
+                  : "border-gray-300 hover:border-gray-800"
+              }`}
+            >
+              <Heart size={20} className={hasItem(product!.id) ? "fill-[#ff3f6c]" : ""} /> 
+              {hasItem(product!.id) ? "WISHLISTED" : "WISHLIST"}
             </button>
           </div>
 
@@ -133,7 +163,34 @@ export default function ProductDetail() {
 
           <div>
             <h3 className="text-sm font-bold uppercase tracking-wider mb-4">Product Details</h3>
-            <p className="text-sm text-gray-600 leading-relaxed">{product.description}</p>
+            <p className="text-sm text-gray-600 leading-relaxed mb-6">{product.description}</p>
+            
+            <div className="grid grid-cols-2 gap-y-4 gap-x-8 text-sm">
+              {product.color && product.color.length > 0 && (
+                <div>
+                  <span className="text-gray-400 font-bold uppercase tracking-wider text-[10px] block mb-1">Colors</span>
+                  <span className="text-[#282c3f]">{product.color.join(", ")}</span>
+                </div>
+              )}
+              {product.fabric && (
+                <div>
+                  <span className="text-gray-400 font-bold uppercase tracking-wider text-[10px] block mb-1">Fabric</span>
+                  <span className="text-[#282c3f]">{product.fabric}</span>
+                </div>
+              )}
+              {product.fit && (
+                <div>
+                  <span className="text-gray-400 font-bold uppercase tracking-wider text-[10px] block mb-1">Fit</span>
+                  <span className="text-[#282c3f]">{product.fit}</span>
+                </div>
+              )}
+              {product.occasion && product.occasion.length > 0 && (
+                <div>
+                  <span className="text-gray-400 font-bold uppercase tracking-wider text-[10px] block mb-1">Occasion</span>
+                  <span className="text-[#282c3f] capitalize">{product.occasion.join(", ")}</span>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>
